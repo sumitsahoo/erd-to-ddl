@@ -49,7 +49,7 @@ poetry export -f requirements.txt --output requirements.txt --without-hashes
 
 ## 🔑 Environment Variable
 There are 2 environment variable you can specify.
-1. REPLICATE_API_TOKEN: This is your Replicate API key.
+1. OPENAI_API_KEY: This is your OpenAI API key.
 2. GRADIO_SERVER_PORT: This is Gradio server port. This is optional if not specified in `launch` method.
 
 ## 🚢 Docker
@@ -71,7 +71,7 @@ To run Docker image locally use below command:
 ```bash
 docker run -it \
 -e GRADIO_SERVER_PORT=8080 \
--e REPLICATE_API_TOKEN=your_key_here \
+-e OPENAI_API_KEY=your_key_here \
 -p 8080:8080 \
 --name erd2ddl \
 erd2ddl_latest
