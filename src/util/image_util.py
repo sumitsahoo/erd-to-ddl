@@ -1,4 +1,3 @@
-import os
 import base64
 
 from src.util.log_util import LogUtil

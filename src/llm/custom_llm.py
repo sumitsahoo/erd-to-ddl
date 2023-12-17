@@ -1,10 +1,11 @@
-from openai import OpenAI
-from src.util.log_util import LogUtil
 import os
+
+from openai import OpenAI
 
 from src.prompt.ddl_generator_prompt import DDLGeneratorPrompt
 from src.prompt.er_normalization_prompt import ERNormalizationPrompt
 from src.util.image_util import ImageUtil
+from src.util.log_util import LogUtil
 
 
 class CustomLLM:

@@ -1,7 +1,7 @@
 import gradio as gr
-import os
-from src.util.log_util import LogUtil
+
 from src.llm.custom_llm import CustomLLM
+from src.util.log_util import LogUtil
 
 
 class ERD2DDL:
