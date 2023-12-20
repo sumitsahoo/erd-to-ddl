@@ -46,7 +46,6 @@ poetry export -f requirements.txt --output requirements.txt --without-hashes
 ```
 
 
-
 ## 🔑 Environment Variable
 There are 2 environment variables you can specify.
 1. OPENAI_API_KEY: This is your OpenAI API key.
