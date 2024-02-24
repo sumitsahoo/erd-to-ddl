@@ -7,7 +7,7 @@ TBD
 
 ## 📦 Dependency Installation
 
-You need `Python 3.12.1` installed in your system. If you are using `pyenv` then check the version using the command: `pyenv version`
+You need `Python 3.12.2` installed in your system. If you are using `pyenv` then check the version using the command: `pyenv version`
 
 1. Install poetry
     ```bash
