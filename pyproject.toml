@@ -12,7 +12,7 @@ python-dotenv = "^1.0.1"
 gradio = "^4.28.3"
 rich = "^13.7.1"
 setuptools = "^69.5.1"
-openai = "^1.23.6"
+openai = "^1.25.1"
 
 
 [build-system]
